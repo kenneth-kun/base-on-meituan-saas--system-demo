@@ -1,0 +1,16 @@
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+
+# 日志
+*.log
+
+# 密钥与数据库（切勿提交）
+.env
+*.db
+*.sqlite3
+
+# 依赖与构建产物
+node_modules/
+dist/

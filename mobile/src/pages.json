@@ -1,0 +1,74 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": { "navigationBarTitleText": "登录" }
+		},
+		{
+			"path": "pages/dashboard/dashboard",
+			"style": { "navigationBarTitleText": "经营看板" }
+		},
+		{
+			"path": "pages/service/service",
+			"style": { "navigationBarTitleText": "客服工作台" }
+		},
+		{
+			"path": "pages/service/detail",
+			"style": { "navigationBarTitleText": "会话" }
+		},
+		{
+			"path": "pages/orders/orders",
+			"style": { "navigationBarTitleText": "订单管理" }
+		},
+		{
+			"path": "pages/products/products",
+			"style": { "navigationBarTitleText": "商品管理" }
+		},
+		{
+			"path": "pages/reviews/reviews",
+			"style": { "navigationBarTitleText": "评价管理" }
+		},
+		{
+			"path": "pages/alerts/alerts",
+			"style": { "navigationBarTitleText": "预警中心" }
+		},
+		{
+			"path": "pages/settings/settings",
+			"style": { "navigationBarTitleText": "设置" }
+		},
+		{
+			"path": "pages/settings/store",
+			"style": { "navigationBarTitleText": "门店信息" }
+		},
+		{
+			"path": "pages/settings/ai",
+			"style": { "navigationBarTitleText": "AI 客服" }
+		},
+		{
+			"path": "pages/settings/password",
+			"style": { "navigationBarTitleText": "修改密码" }
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": { "navigationBarTitleText": "我的" }
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "美团商家",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#2a78d6",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{ "pagePath": "pages/dashboard/dashboard", "text": "看板" },
+			{ "pagePath": "pages/service/service", "text": "客服" },
+			{ "pagePath": "pages/orders/orders", "text": "订单" },
+			{ "pagePath": "pages/mine/mine", "text": "我的" }
+		]
+	}
+}
