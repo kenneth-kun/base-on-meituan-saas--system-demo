@@ -1,6 +1,6 @@
 {
     "name" : "美团商家",
-    "appid" : "",
+    "appid" : "", /* DCloud appid：本地填写，勿提交到 git */
     "description" : "美团商家经营工具",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -50,7 +50,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "", /* 微信小程序 appid：本地填写，勿提交到 git */
         "setting" : {
             "urlCheck" : false
         },

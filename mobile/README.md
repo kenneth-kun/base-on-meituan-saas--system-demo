@@ -60,6 +60,8 @@ npm run dev:h5            # 编译到 H5
 - H5 开发：走 vite 代理，`API_BASE = /api/v1`
 - 小程序真机：需改成后端可达地址（Mac 局域网 IP 或已备案 HTTPS 域名），手机与电脑连同一 WiFi
 
+**appid 说明**：`src/manifest.json` 里的 appid（DCloud / 微信小程序）在仓库中保持空值，本地构建/预览时自行填写，**勿提交到 git**。
+
 ## 后续改进
 
 - **微信登录打通**：后端 `jscode2session` 接口已就绪，前端补上 `wx.login` → `code` 换 token 流程
